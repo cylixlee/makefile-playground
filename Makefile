@@ -1,4 +1,4 @@
-DIRS := $(subst /,,$(shell ls -d */))
+DIRS := $(subst /Makefile,,$(shell ls -d */Makefile))
 ARGS ?=
 
 .PHONY: default
