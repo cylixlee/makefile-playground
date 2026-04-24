@@ -15,3 +15,4 @@ default:
 .PHONY: $(DIRS)
 $(DIRS):
 	@make --no-print-directory -C $@ $(ARGS)
+
